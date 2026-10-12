@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorar Catálogo - Gamehub Chanchito Feniz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado / Navegación -->
+    <header>
+        <h1>Gamehub Chanchito Feniz</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="explorar.html" style="color: ffffff;">Explorar</a></li>
+                <li><a href="biblioteca.html">Biblioteca</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de Búsqueda y Filtros -->
+        <section class="contact-section" style="margin-top: 2rem;">
+            <h2>Explorar Videojuegos</h2>
+            <p style="color: #94a3b8; margin-bottom: 1.5rem;">Encuentra tus títulos favoritos utilizando los filtro de categoria y precio.</p>
+
+            <div class="filter-container">
+                <input
+                    type="text"
+                    class="search-input"
+                    placeholder="Buscar videojuego por título..."
+                    aria-label="Buscar videojuego"
+                >
+
+                <select class="filter-select" aria-label="Filtrar por categoría">
+                    <option value="">Todas las categorías></option>
+                    <option value="accion">Acción/Aventura</option>
+                    <option value="rpg">RPG/Rol</option>
+                    <option value="estrategia">Estrategia</option>
+                    <option value="deportes">Deportes</option>
+                </select>
+
+                <select class="filter-select" aria-label="Ordenar por precio">
+                    <option value="">Ordenar por...</option>
+                    <option value="asc">Precio: Menor a Mayor</option>
+                    <option value="desc">Precio: Mayor a Menor</option>
+                </select>
+            </div>
+        </section>
+
+    <!-- Grid con el Catálogo Extendido -->
+    <section style="padding: 0 2rem; margin-bottom: rem;">
+        <div class="games-container">
+            <!-- Tarjeta 1 -->
+             <article class="game-card">
+                <img src="https://via.placeholder.com/300x180/1e293b/38bdf8?text=Cyber+Feniz" alt="Portada Cyber Feniz">
+                <h3>Cyber Feniz 2077</h3>
+                <span>Accion/RPG</span>
+                <strong>$59.99 USD</strong>
+                <button class="btn" style="margin-top: 0.5rem;">Ver Detalle</button>
+             </article>
+
+             <article class="game-card">
+                <img src="https://via.placeholder.com/300x180/1e293b/38bdf8?text=Shadow+Quest" alt="Portada Shadow Quest">
+                <h3>Shadow Quest</h3>
+                <span>Aventura/Fantasia</span>
+                <strong>$29.99 USD</strong>
+                <button class="btn" style="margin-top: 0.5rem;">Ver Detalle</button>
+             </article>
+
+             <article class="game-card">
+                <img src="https://via.placeholder.com/300x180/1e293b/38bdf8?text=Pixel+Racer" alt="Portada Pixel Racer">
+                <h3>Pixel Racer</h3>
+                <span>Carreras</span>
+                <strong>$14.99 USD</strong>
+                <button class="btn" style="margin-top: 0.5rem;">Ver Detalle</button>
+             </article>
+
+             <article class="game-card">
+                <img src="https://via.placeholder.com/300x180/1e293b/38bdf8?text=Galactic+War" alt="Portada Galactic War">
+                <h3>Galactic War</h3>
+                <span>Strategy</span>
+                <strong>$39.99 USD</strong>
+                <button class="btn" style="margin-top: 0.5rem;">Ver Detalle</button>
+             </article>
+             
+             <article class="game-card">
+                <img src="https://via.placeholder.com/300x180/1e293b/38bdf8?text=Chanchito+Kingdom" alt="Portada Chanchito Kingdom">
+                <h3>Chanchito Kingdom</h3>
+                <span>Simulación</span>
+                <strong>Gratis</strong>
+                <button class="btn" style="margin-top: 0.5rem;">Ver Detalle</button>
+             </article>
+
+             <article class="game-card">
+                <img src="https://via.placeholder.com/300x180/1e293b/38bdf8?text=Dungeon+Crawler" alt="Portada Dungeon Crawler">
+                <h3>Duengeon Crawler</h3>
+                <span>Roguelike</span>
+                <strong>$19.99 USD</strong>
+                <button class="btn" style="margin-top: 0.5rem;">Ver Detalle</button>
+             </article>
+        </div>
+    </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Gamehub Chanchito Feniz</h3>
+                <p>Tu plataforma favorita de videojuegos.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</li>
+                    <li><a href="explorar.html">Explorar</a></li>
+                    <li><a href="biblioteca.html">Biblioteca</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Gamehub Chanchito Feniz</p>
+        </div>
+    </footer>
+</body>
+</html>
+
