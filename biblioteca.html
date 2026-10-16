@@ -7,6 +7,67 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <!-- Encabezado / Navegación Global -->
+    <header>
+        <h1>Gamehub Chanchito Feniz</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="explorar.html">Explorar</a></li>
+                <li><a href="biblioteca.html">Biblioteca</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="library-main">
+        <!-- Titulo de la sección -->
+        <section>
+            <h2>Mi Biblioteca</h2>
+            <p>Tus juegos adquiridos listos para jugar o descargar.</p>
+        </section>
+        <!-- Grilla de juegos en Biblioteca -->
+        <section class="games-container">
+            <!-- Juego 1 en Biblioteca -->
+            <article class="game-card">
+                <img src="https://via.placeholder.com/300x180/1e293b/38bdf8?text=Cyber+Funk" alt="Portada Cyber Funk">
+                <h3>Cyber Funk 2077</h3>
+                <span>Acción/RPG</span>
+                <strong class="game-status installed">Instalado</strong>
+                <a href="juego-detalle.html" class="btn">Jugar</a>
+            </article>
+
+            <!-- Juego 2 en Biblioteca -->
+            <article class="game-card">
+                <img src="https://via.placeholder.com/300x180/1e293b/38bdf8?text=Shadow+Quest" alt="Portada Shadow Quest">
+                <h3>Shadow Quest</h3>
+                <span>Aventura/Fantasia</span>
+                <strong class="game-status pending">Listo para instalar</strong>
+                <a href="juego-detalle.html" class="btn btn-secondary-action">Instalar</a>
+            </article>
+        </section>
+    </main>
+
+    <!-- Pie de Página global -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Gamehub Chanchito Feniz</h3>
+                <p>Tu plataforma favorita de videojuegos.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="explorar.html">Explorar</a></li>
+                    <li><a href="biblioteca.html">Biblioteca</a></li>
+                    <li><a href="nosotros.html">Nosotros></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Gamehub Chanchito Feniz</p>
+        </div>
+    </footer>
 </body>
 </html>
