@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar compra - Gamehub Chanchito Feniz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado / Navegación Global -->
+    <header>
+        <h1>Gamehub Chanchito Feniz</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="explorar.html">Explorar</a></li>
+                <li><a href="biblioteca.html">Biblioteca</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="checkout-main">
+        <!-- Titulo de la sección -->
+        <section class="checkout-header-section">
+            <h2>Finalizar compra</h2>
+            <p>Estás a un paso de añadir el juego a tu biblioteca.</p>
+        </section>
+
+        <!-- Contenedor principal del checkout en 2 columnas -->
+        <section class="checkout-grid">
+            <!-- Columna izquierda: Formulario de pago -->
+            <div class="checkout-form-container">
+                <h3>Detalles de pago</h3>
+                <form class="checkout-form">
+                    <div class="form-group">
+                        <label for="card-name">Nombre en la tarjeta</label>
+                        <input type="text" id="card-name" placeholder="Ej. Juan Perez" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="card-number">Número de tarjeta</label>
+                        <input type="text" id="card-number" placeholder="xxxx-xxxx-xxxx-xxxx" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="expiry-date">Fecha de expiración</label>
+                            <input type="text" id="expiry-date" placeholder="MM/AA" required>
+                        </div>
+                    
+                        <div class="form-group">
+                            <label for="cvv">CVV</label>
+                            <input type="password" id="CVV" placeholder="123" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Confirmar y pagar</button>
+                </form>
+            </div>
+
+            <!-- Columna Derecha: Resumen del Pedido -->
+            <aside class="order-summary-panel">
+                <h3>Resumen del pedido</h3>
+                <div class="summary-item">
+                    <img src="https://via.placeholder.com/100x60/1e293b/38bdf8?text=Cyber+Funk" alt="Miniatura Cyber Funk">
+                    <div>
+                        <h4>Cyber Funk 2077</h4>
+                        <span>Acción/RPG</span>
+                    </div>
+                </div>
+
+                <hr class="panel-divider">
+
+                <div class="summary-totals">
+                    <div class="total-row">
+                        <span>Precio del juego</span>
+                        <span>$59.99 USD</span>
+                    </div>
+                    <div class="total-row">
+                        <span>Impuestos</span>
+                        <span>$0.00 USD</span>
+                    </div>
+                    <div class="total-row final-total">
+                        <strong>Total a pagar</strong>
+                        <strong>$59.99 USD</strong>
+                    </div>
+                </div>
+
+                <a href="biblioteca.html" class="btn btn-secondary-action">Cancelar / Volver</a>
+            </aside>
+        </section>
+    </main>
+    
+    <!-- Pie de pagina Global -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Gamehub Chanchito Feniz</h3>
+                <p>Tu plataforma favorita de videojuegos.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="explorar.html">Explorar</a></li>
+                    <li><a href="biblioteca.html">Biblioteca</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Gamehub Chanchito Feniz</p>
+        </div>
+    </footer>
+</body>
+</html>
