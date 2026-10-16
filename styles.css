@@ -575,3 +575,46 @@ header nav ul li a, footer a {
         grid-template-columns: 1fr;
     }
 }
+
+/* Estilos para la Biblioteca */
+.library-main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.library-header-section {
+    margin-bottom: 2rem;
+}
+
+.library-header-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    color: #f8fafc;
+}
+
+.library-header.section p {
+    color: #94a3b8;
+}
+
+.game-status {
+    font-size: 0.9rem;
+}
+
+.game-status.installed {
+    color: #38bdf8;
+}
+
+.game-status.pending {
+    color: #94a3b8;
+}
+
+.btn-secondary-action {
+    background: #334155;
+    color: #f8fafc;
+}
+
+.btn-seconday-action:hover {
+    background: #475569;
+}
+
